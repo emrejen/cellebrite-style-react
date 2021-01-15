@@ -1,0 +1,25 @@
+@import url('../styles/main.css');
+
+.gps-box {
+  display: inline-block;
+  width: 300px;
+  padding: 15px 0 15px 6px;
+  border-bottom: 1px solid var(--color-gray-dark);
+  cursor: pointer;
+}
+
+.gps-box:hover {
+  background-color: var(--color-blue-light);
+}
+
+.gps-box-selected {
+  background-color: var(--color-blue-medium);
+}
+
+.gps-data {
+  font-size: var(--font-size-small);
+}
+
+.gps-visits {
+  color: var(--color-gray-light);
+}

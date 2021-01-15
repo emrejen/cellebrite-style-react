@@ -1,0 +1,14 @@
+:root {
+  --color-white: #ffffff;
+  --color-gray: #f5f5f5;
+  --color-gray-light: #878da1;
+  --color-gray-dark: #d8d8d8;
+  --color-teal: #3d6c9c;
+  --color-teal-light: rgba(73, 154, 229, 0.3);
+  --color-teal-light-bar-chart: #3fbac0;
+  --color-blue: #4464df;
+  --color-blue-medium: #d9e7fe;
+  --color-blue-light: #ebf4ff;
+
+  --color-shadow-gray: rgba(165, 165, 165, 0.65);
+}

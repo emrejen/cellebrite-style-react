@@ -1,0 +1,46 @@
+@import url('../styles/main.css');
+
+:root {
+  --title-font-size: 17px;
+
+  --box-height: 530px;
+}
+
+.box {
+  background-color: var(--color-white);
+  height: inherit;
+  box-shadow: 0 2px 5px 0 var(--color-shadow-gray);
+  border-radius: 3px;
+  height: var(--box-height);
+}
+.box-title-container {
+  display: flex;
+  justify-content: space-between;
+}
+.box-title-icon {
+  padding-right: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+  color: var(--color-teal);
+}
+.box-title {
+  padding: var(--padding-normal);
+  font-size: var(--title-font-size);
+  color: var(--color-teal);
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 39px;
+  font-weight: 500;
+  flex: 1;
+  margin: 0;
+}
+
+.box-title-separator {
+  color: var(--color-teal);
+  line-height: 1px;
+  border: 1px var(--color-teal-light) solid;
+}
+
+.box-body {
+  padding: var(--padding-normal);
+}

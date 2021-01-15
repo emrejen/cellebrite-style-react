@@ -1,0 +1,22 @@
+@import url('../styles/colors.css');
+@import url('../styles/fonts.css');
+
+* {
+  --padding-normal: 3px 10px;
+}
+
+.same-row {
+  display: flex;
+}
+
+.pad-left-10 {
+  padding-left: 10px;
+}
+
+.pad-top-10 {
+  padding-top: 10px;
+}
+
+.align-middle {
+  align-items: center;
+}
