@@ -1,0 +1,17 @@
+@import url('../styles/main.css');
+
+.top-media-container {
+  display: inline-block;
+  padding: var(--padding);
+  cursor: pointer;
+}
+
+.top-media-bottom {
+  font-size: var(--font-size-small);
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

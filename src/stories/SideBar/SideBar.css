@@ -1,0 +1,33 @@
+@import url('../styles/main.css');
+
+.side-bar-item-container {
+  width: 85px;
+  padding: 8px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-brown-dark);
+}
+
+.side-bar-item {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-size: var(--font-size-small);
+  color: var(--color-brown-light);
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.side-bar-item:hover {
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.side-bar-item-selected {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+}

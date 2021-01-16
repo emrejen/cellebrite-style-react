@@ -1,5 +1,5 @@
 * {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Helvetica, Arial, sans-serif !important;
 }
 :root {
   --font-size-smaller: 10px;
