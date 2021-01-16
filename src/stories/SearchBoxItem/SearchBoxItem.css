@@ -1,0 +1,16 @@
+@import url('../styles/main.css');
+
+.search-box-container {
+  border: 1px solid var(--color-gray-light);
+  cursor: pointer;
+  width: 120px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 40px;
+  vertical-align: top;
+}
+
+.search-box-name {
+  font-size: var(--font-size-small);
+}

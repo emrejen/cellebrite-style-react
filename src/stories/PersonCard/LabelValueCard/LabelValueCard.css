@@ -1,0 +1,20 @@
+@import url('../../styles/main.css');
+
+.label-card-value-container {
+  padding-bottom: 15px;
+}
+.label-card-value-label {
+  font-size: var(--font-size-smaller);
+  color: var(--color-gray-light);
+  padding-bottom: 3px;
+}
+.label-card-value-value {
+  font-size: var(--font-size-small);
+}
+
+.label-card-value-important {
+  border: 1px solid var(--color-black);
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  background-color: var(--color-gray);
+}

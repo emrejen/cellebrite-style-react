@@ -12,6 +12,7 @@
   box-shadow: 0 2px 5px 0 var(--color-shadow-gray);
   border-radius: 3px;
   height: var(--box-height);
+  overflow: scroll;
 }
 .box-title-container {
   display: flex;

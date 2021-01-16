@@ -3,12 +3,14 @@ import React from 'react';
 import { Page } from './Page';
 import * as HeaderStories from './Header.stories';
 
-export default {
+const element = {
   title: 'Example/Page',
   component: Page,
 };
 
-const Template = (args) => <Page {...args} />;
+export default element;
+
+const Template = args => <Page {...args} />;
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {

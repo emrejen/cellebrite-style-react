@@ -3,10 +3,16 @@
 
 * {
   --padding-normal: 3px 10px;
+  --padding-left: 10px;
+  --padding-top: 10px;
 }
 
 .same-row {
   display: flex;
+}
+
+.do-justify-content {
+  justify-content: space-between;
 }
 
 .pad-left-10 {
@@ -19,4 +25,8 @@
 
 .align-middle {
   align-items: center;
+}
+
+.browse-meta {
+  justify-content: space-between;
 }
