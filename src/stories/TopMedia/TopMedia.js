@@ -23,11 +23,15 @@ export const TopMedia = ({ title = 'N/A', value = 0, ...props }) => {
   return (
     <div className="top-media-container" onClick={typeof (props.onClick === 'function') ? props.onClick : null}>
       <div>
-        <img src={getSrcBy(title)} alt={title} />
+        <img src={getSrcBy(title)} alt={title} data-testid="top-media-icon" />
       </div>
       <div className="top-media-bottom">
-        <div className="top-media-title">{ellipsis(title, 19)}</div>
-        <div className="top-media-value">{value}</div>
+        <div className="top-media-title" data-testid="top-media-title">
+          {ellipsis(title, 19)}
+        </div>
+        <div className="top-media-value" data-testid="top-media-value">
+          {value}
+        </div>
       </div>
     </div>
   );
