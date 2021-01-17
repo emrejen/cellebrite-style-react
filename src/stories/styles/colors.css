@@ -1,5 +1,9 @@
 :root {
   /*new*/
+
+  --color-black-dark: #121e28;
+
+  /*pathfinder*/
   --color-black: #000000;
   --color-dark: #5a6977;
   --color-dark-medium: #5c5c5c;
