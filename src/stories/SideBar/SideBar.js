@@ -9,6 +9,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
 import DateRangeIcon from '@material-ui/icons/DateRange';
 import LanguageIcon from '@material-ui/icons/Language';
+import { featureToggle } from '../FeatureToggle/featureToggle';
 
 import './SideBar.css';
 
@@ -25,6 +26,7 @@ const items = [
 ];
 
 export const SideBar = () => {
+  console.log(featureToggle().isOpen('clb-tf-view-dashboard'));
   const [selectedId, setSelectedId] = useState(null);
   const selectItem = event => {
     setSelectedId(event.currentTarget.id);
